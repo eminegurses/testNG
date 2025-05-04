@@ -1,6 +1,5 @@
-package techproed.tests.day22_pom_excel;
+package techproed.tests.smoke;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.CarRentalPage;

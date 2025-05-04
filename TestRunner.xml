@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/EM�NE/IdeaProjects/Batch307TestNG/src/test/java/techproed/tests/smoke">
+        <classes>
+            <class name="techproed.tests.smoke.C03_PositiveLoginTest">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoke.C04_NegativeLoginTest">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

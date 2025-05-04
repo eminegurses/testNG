@@ -5,7 +5,7 @@ import techproed.utilities.Driver;
 
 public class C01_FirstDriverUsage {
 
-    @Test
+    @Test(groups ="smoke")
     public void test01() {
         Driver.closeDriver();
         Driver.getDriver().get("https://techproeducation.com");

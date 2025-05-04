@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 307">
+    <test name="Smoke Test">
+
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="techproed.tests.*"></package>
+        </packages>
+
+    </test>
+</suite>
+        <!--Belirli gruplari calistirma-->
+        <!-- yorum satiri icin ctrl + / -->

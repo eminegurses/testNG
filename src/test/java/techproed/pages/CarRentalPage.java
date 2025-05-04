@@ -36,12 +36,10 @@ public class CarRentalPage {
     @FindBy(xpath = "//*[contains( text() ,'not found'  )]")
     public WebElement negativeLoginVerify;
 
+    @FindBy(tagName = "em")
+    public WebElement profileEmail;
 
-
-
-
-
-
-
+    @FindBy(xpath = "//button[.='Yes']")
+    public WebElement yesButton;
 
 }

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import techproed.pages.OpenSourcePage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 public class C02_PropertiesUsageTest {
 
@@ -31,6 +32,10 @@ public class C02_PropertiesUsageTest {
         openSourcePage.loginButton.click();
 
         //Login Testinin basarili oldugunu test edelim
+        ReusableMethods.waitForSecond(1);
+        ReusableMethods.visibleWait(openSourcePage.dashboard,15);
+        ReusableMethods.takeScreenShot();
+
         Assert.assertTrue(openSourcePage.dashboard.isDisplayed());
 
         //sayfayi kapatalim

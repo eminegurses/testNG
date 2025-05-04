@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 307">
+    <test name="Smoke Test">
+
+        <classes>
+            <class name="techproed.tests.day20_annotations.C01_Annotations"></class>
+            <class name="techproed.tests.day21_pom.C01_FirstDriverUsage"></class>
+            <class name="techproed.tests.day22_pom_excel.C01_PropertiesUsageTest"></class>
+        </classes>
+
+
+    </test>
+</suite>
+        <!--Belirli classlari calistirma-->
+        <!-- yorum satiri icin ctrl + / -->

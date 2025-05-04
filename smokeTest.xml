@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 307">
+    <test name="Smoke Test">
+
+        <packages>
+            <package name="techproed.tests.smoke"></package>
+            <package name="techproed.tests.day21_pom"></package>
+        </packages>
+
+    </test>
+</suite>
+        <!--Belirli packagelari calistirma-->
+        <!-- yorum satiri icin ctrl + / -->

@@ -44,7 +44,7 @@ public class C01_Annotations {
         System.out.println("@AfterMethod notasyonuna sahip method her test methodundan sonra 1 kez calisir");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         System.out.println("test01 methodu calisti");
     }
